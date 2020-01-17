@@ -197,6 +197,7 @@
             // 
             // TopMargin
             // 
+            this.TopMargin.HeightF = 16.66667F;
             this.TopMargin.Name = "TopMargin";
             // 
             // BottomMargin
@@ -210,7 +211,7 @@
             // 
             this.ReportHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.label1});
-            this.ReportHeader.HeightF = 60F;
+            this.ReportHeader.HeightF = 37.08334F;
             this.ReportHeader.Name = "ReportHeader";
             // 
             // GroupHeader1
@@ -278,9 +279,9 @@
             // 
             // label1
             // 
-            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(6F, 6F);
+            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(6.00001F, 6.00001F);
             this.label1.Name = "label1";
-            this.label1.SizeF = new System.Drawing.SizeF(638F, 24.19433F);
+            this.label1.SizeF = new System.Drawing.SizeF(290.0833F, 24.19433F);
             this.label1.StyleName = "Title";
             this.label1.Text = "DSR";
             // 
@@ -621,6 +622,7 @@
             this.DataMember = "AGRDAILYSALESREPORTS";
             this.DataSource = this.sqlDataSource1;
             this.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.Margins = new System.Drawing.Printing.Margins(100, 100, 17, 100);
             this.StyleSheet.AddRange(new DevExpress.XtraReports.UI.XRControlStyle[] {
             this.Title,
             this.GroupCaption1,
