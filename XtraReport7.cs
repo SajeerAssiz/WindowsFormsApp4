@@ -6,9 +6,9 @@ using DevExpress.XtraReports.UI;
 
 namespace WindowsFormsApp4
 {
-    public partial class XtraReport31 : DevExpress.XtraReports.UI.XtraReport
+    public partial class XtraReport7 : DevExpress.XtraReports.UI.XtraReport
     {
-        public XtraReport31()
+        public XtraReport7()
         {
             InitializeComponent();
         }

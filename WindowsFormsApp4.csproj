@@ -125,11 +125,11 @@
     <Compile Include="XtraReport2.Designer.cs">
       <DependentUpon>XtraReport2.cs</DependentUpon>
     </Compile>
-    <Compile Include="XtraReport31.cs">
+    <Compile Include="XtraReport7.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="XtraReport31.Designer.cs">
-      <DependentUpon>XtraReport31.cs</DependentUpon>
+    <Compile Include="XtraReport7.Designer.cs">
+      <DependentUpon>XtraReport7.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -151,8 +151,8 @@
     <EmbeddedResource Include="XtraReport2.resx">
       <DependentUpon>XtraReport2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="XtraReport31.resx">
-      <DependentUpon>XtraReport31.cs</DependentUpon>
+    <EmbeddedResource Include="XtraReport7.resx">
+      <DependentUpon>XtraReport7.cs</DependentUpon>
     </EmbeddedResource>
     <None Include=".editorconfig">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
