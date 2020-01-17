@@ -10,15 +10,59 @@ using System.Windows.Forms;
 using DevExpress.XtraReports.UI;
 using System.Collections.Generic;
 using System.Net.Mail;
+using System.Configuration;
 
 namespace WindowsFormsApp4
 {
+   
     public partial class Form1 : Form
     {
+        public string start = "";
         public Form1()
         {
             InitializeComponent();
             
+            var appSettings = ConfigurationManager.AppSettings;
+
+             start = appSettings["Start"].ToString();
+            string strSPFEmail = appSettings["SPFEmail"].ToString();
+            string strTFSEmail = appSettings["TFSEmail"].ToString();
+            string strTestEmail = appSettings["TestEmail"].ToString();
+
+            if (start == "Auto")
+
+            {
+                txtSPF.Text = strSPFEmail;
+                txtTFS.Text = strTFSEmail;
+
+
+                EventArgs k = new EventArgs();
+                System.Threading.Thread.Sleep(5000);
+                button2_Click_1(this, k);
+
+                System.Threading.Thread.Sleep(5000);
+                button1_Click_1(this, k);
+
+                Application.Exit();
+
+            }
+
+            if (start == "Test")
+            {
+                txtSPF.Text = strTestEmail;
+                txtTFS.Text = strTestEmail;
+
+                EventArgs k = new EventArgs();
+               // System.Threading.Thread.Sleep(5000);
+                button2_Click_1(this, k);
+
+              //  System.Threading.Thread.Sleep(5000);
+                button1_Click_1(this, k);
+
+                
+            }
+
+      
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -85,6 +129,21 @@ namespace WindowsFormsApp4
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Restart();
+        }
+
+        
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            if ((start == "Auto") || (start == "Test"))
+
+                this.Close();
+
+
+        }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
