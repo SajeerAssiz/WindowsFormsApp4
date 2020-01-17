@@ -89,7 +89,7 @@ namespace WindowsFormsApp4
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            XtraReport report = new XtraReport2();
+            XtraReport report = new XtraReport7();
             report.Parameters[0].Value = "TFS";
             using (SmtpClient client = new SmtpClient("smtp.office365.com", 587))
             {
@@ -106,7 +106,7 @@ namespace WindowsFormsApp4
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            XtraReport report = new XtraReport2();
+            XtraReport report = new XtraReport7();
             report.Parameters[0].Value = "SPF";
             using (SmtpClient client = new SmtpClient("smtp.office365.com", 587))
             {
