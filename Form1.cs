@@ -67,7 +67,8 @@ namespace WindowsFormsApp4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            XtraReport report = new XtraReport1();
+            XtraReport report = new XtraReport31();
+            report.Parameters[0].Value = "TFS";
 
             using (SmtpClient client = new SmtpClient("smtp.office365.com", 587))
             {

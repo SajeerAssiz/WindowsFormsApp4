@@ -49,7 +49,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.684126F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96.31588F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 55F));
             this.tableLayoutPanel1.Controls.Add(this.documentViewer1, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 3);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -70,7 +70,7 @@
             this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel2.Controls.Add(this.button3, 2, 1);
             this.tableLayoutPanel2.Controls.Add(this.txtSPF, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.button1, 0, 1);
@@ -88,7 +88,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.32467F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.37662F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(817, 241);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(812, 241);
             this.tableLayoutPanel2.TabIndex = 5;
             this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
             // 
@@ -96,7 +96,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.LightSlateGray;
             this.button3.ForeColor = System.Drawing.SystemColors.Control;
-            this.button3.Location = new System.Drawing.Point(749, 126);
+            this.button3.Location = new System.Drawing.Point(739, 126);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 31);
             this.button3.TabIndex = 7;
@@ -111,7 +111,7 @@
             this.txtSPF.Margin = new System.Windows.Forms.Padding(2);
             this.txtSPF.Multiline = true;
             this.txtSPF.Name = "txtSPF";
-            this.txtSPF.Size = new System.Drawing.Size(369, 119);
+            this.txtSPF.Size = new System.Drawing.Size(364, 119);
             this.txtSPF.TabIndex = 1;
             this.txtSPF.Text = resources.GetString("txtSPF.Text");
             // 
@@ -130,11 +130,11 @@
             // txtTFS
             // 
             this.txtTFS.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtTFS.Location = new System.Drawing.Point(375, 2);
+            this.txtTFS.Location = new System.Drawing.Point(370, 2);
             this.txtTFS.Margin = new System.Windows.Forms.Padding(2);
             this.txtTFS.Multiline = true;
             this.txtTFS.Name = "txtTFS";
-            this.txtTFS.Size = new System.Drawing.Size(369, 119);
+            this.txtTFS.Size = new System.Drawing.Size(364, 119);
             this.txtTFS.TabIndex = 0;
             this.txtTFS.Text = resources.GetString("txtTFS.Text");
             // 
@@ -149,7 +149,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(375, 186);
+            this.textBox4.Location = new System.Drawing.Point(370, 186);
             this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(52, 20);
@@ -160,7 +160,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.LightSlateGray;
             this.button2.ForeColor = System.Drawing.SystemColors.Control;
-            this.button2.Location = new System.Drawing.Point(376, 126);
+            this.button2.Location = new System.Drawing.Point(371, 126);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 31);
             this.button2.TabIndex = 4;
@@ -170,7 +170,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(749, 3);
+            this.textBox1.Location = new System.Drawing.Point(739, 3);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(65, 20);
             this.textBox1.TabIndex = 8;
@@ -183,7 +183,7 @@
             this.documentViewer1.IsMetric = false;
             this.documentViewer1.Location = new System.Drawing.Point(34, 8);
             this.documentViewer1.Name = "documentViewer1";
-            this.documentViewer1.Size = new System.Drawing.Size(815, 284);
+            this.documentViewer1.Size = new System.Drawing.Size(810, 284);
             this.documentViewer1.TabIndex = 2;
             // 
             // Form1

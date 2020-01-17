@@ -144,7 +144,6 @@
             this.label32 = new DevExpress.XtraReports.UI.XRLabel();
             this.label33 = new DevExpress.XtraReports.UI.XRLabel();
             this.label34 = new DevExpress.XtraReports.UI.XRLabel();
-            this.parameter1 = new DevExpress.XtraReports.Parameters.Parameter();
             ((System.ComponentModel.ISupportInitialize)(this.table1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.table2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.table3)).BeginInit();
@@ -157,8 +156,8 @@
             this.sqlDataSource1.Name = "sqlDataSource1";
             storedProcQuery1.Name = "AGRDAILYSALESREPORTS";
             queryParameter1.Name = "@Brand";
-            queryParameter1.Type = typeof(DevExpress.DataAccess.Expression);
-            queryParameter1.Value = new DevExpress.DataAccess.Expression("spf", typeof(string));
+            queryParameter1.Type = typeof(string);
+            queryParameter1.ValueInfo = "TFS";
             storedProcQuery1.Parameters.Add(queryParameter1);
             storedProcQuery1.StoredProcName = "AGRDAILYSALESREPORTS";
             this.sqlDataSource1.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
@@ -307,7 +306,6 @@
             // 
             // TopMargin
             // 
-            this.TopMargin.HeightF = 28.125F;
             this.TopMargin.Name = "TopMargin";
             // 
             // BottomMargin
@@ -416,7 +414,7 @@
             this.label1.Name = "label1";
             this.label1.SizeF = new System.Drawing.SizeF(615F, 24.19433F);
             this.label1.StyleName = "Title";
-            this.label1.Text = "Daily Sales Report";
+            this.label1.Text = "DSR";
             // 
             // table1
             // 
@@ -1163,11 +1161,6 @@
             this.label34.TextFormatString = "{0:C2}";
             this.label34.WordWrap = false;
             // 
-            // parameter1
-            // 
-            this.parameter1.Description = "Parameter1";
-            this.parameter1.Name = "parameter1";
-            // 
             // XtraReport31
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -1187,12 +1180,9 @@
             this.DataMember = "AGRDAILYSALESREPORTS";
             this.DataSource = this.sqlDataSource1;
             this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(100, 100, 28, 100);
             this.PageHeight = 1169;
             this.PageWidth = 827;
             this.PaperKind = System.Drawing.Printing.PaperKind.A4;
-            this.Parameters.AddRange(new DevExpress.XtraReports.Parameters.Parameter[] {
-            this.parameter1});
             this.StyleSheet.AddRange(new DevExpress.XtraReports.UI.XRControlStyle[] {
             this.Title,
             this.GroupCaption1,
@@ -1316,6 +1306,5 @@
         private DevExpress.XtraReports.UI.XRLabel label32;
         private DevExpress.XtraReports.UI.XRLabel label33;
         private DevExpress.XtraReports.UI.XRLabel label34;
-        private DevExpress.XtraReports.Parameters.Parameter parameter1;
     }
 }
