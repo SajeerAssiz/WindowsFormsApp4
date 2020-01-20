@@ -404,8 +404,8 @@
             this.tableCell13.Name = "tableCell13";
             this.tableCell13.StyleName = "DetailCaption1";
             this.tableCell13.StylePriority.UseTextAlignment = false;
-            this.tableCell13.Text = "% QTY";
-            this.tableCell13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            this.tableCell13.Text = "QTY (Contrib%) ";
+            this.tableCell13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.tableCell13.Weight = 0.13034012854823243D;
             // 
             // tableCell9
@@ -422,8 +422,8 @@
             this.tableCell10.Name = "tableCell10";
             this.tableCell10.StyleName = "DetailCaption1";
             this.tableCell10.StylePriority.UseTextAlignment = false;
-            this.tableCell10.Text = "% SALES";
-            this.tableCell10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            this.tableCell10.Text = "SALES (Contrib%) ";
+            this.tableCell10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.tableCell10.Weight = 0.13206282389470786D;
             // 
             // tableCell12
@@ -503,7 +503,7 @@
             this.tableCell23.StyleName = "DetailData1";
             this.tableCell23.StylePriority.UseTextAlignment = false;
             this.tableCell23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
-            this.tableCell23.TextFormatString = "{0:0.00%}";
+            this.tableCell23.TextFormatString = "{0:0%}";
             this.tableCell23.Weight = 0.11639914034253282D;
             // 
             // tableCell20
@@ -525,7 +525,7 @@
             this.tableCell24.StyleName = "DetailData1";
             this.tableCell24.StylePriority.UseTextAlignment = false;
             this.tableCell24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
-            this.tableCell24.TextFormatString = "{0:0.00%}";
+            this.tableCell24.TextFormatString = "{0:0%}";
             this.tableCell24.Weight = 0.11793771594392487D;
             // 
             // tableCell22
@@ -715,7 +715,7 @@
             this.xrLabel9.Summary = xrSummary6;
             this.xrLabel9.Text = "xrLabel2";
             this.xrLabel9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            this.xrLabel9.TextFormatString = "{0:0.00%}";
+            this.xrLabel9.TextFormatString = "{0:0%}";
             // 
             // xrLabel10
             // 
@@ -732,7 +732,7 @@
             this.xrLabel10.Summary = xrSummary5;
             this.xrLabel10.Text = "xrLabel2";
             this.xrLabel10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            this.xrLabel10.TextFormatString = "{0:0.00%}";
+            this.xrLabel10.TextFormatString = "{0:0%}";
             // 
             // XtraReport7
             // 
